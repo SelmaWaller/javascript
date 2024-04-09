@@ -4,7 +4,7 @@
  //  body: { age: 30 }
  //})
  
- const { data } = await useFetch('/api/server-routes')
+ const { data } = await useFetch('/api/currency/NOK')
 </script>
 
 <template>
