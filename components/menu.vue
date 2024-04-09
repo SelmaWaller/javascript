@@ -17,10 +17,8 @@
 </template>
 
 <style scoped lang="scss">
-  .router-link {
-    &-active {
+  .router-link-exact-active {
       font-weight: bold;
       color: red;
     }
-  }
 </style>

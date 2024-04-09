@@ -1,11 +1,15 @@
 <script setup lang="ts">
-import Menu from "~/components/menu.vue";
  const { id } = useRoute().params
+
+ definePageMeta({
+   layout: 'products'
+ })
 </script>
 
 <template>
-  <Menu />
-  <h2>Product details for {{ id }}</h2>
+  <div>
+    <h2>Product details for {{ id }}</h2>
+  </div>
 </template>
 
 <style scoped>

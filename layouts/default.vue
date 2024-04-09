@@ -1,12 +1,11 @@
 <script setup lang="ts">
-  definePageMeta({
-    layout: 'products'
-  })
+  import {Menu} from "#components";
 </script>
 
 <template>
+  <Menu />
   <div>
-    <h2>Products page</h2>
+    <slot />
   </div>
 </template>
 
