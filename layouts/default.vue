@@ -8,7 +8,8 @@
       <NuxtLink to="/" class="font-bold">Home</NuxtLink>
       <ul class="flex gap-4">
         <li><NuxtLink to="/about">About</NuxtLink></li>
-        <li><NuxtLink to="/Products">Products</NuxtLink></li>
+        <li><NuxtLink to="/products">Products</NuxtLink></li>
+        <li><NuxtLink to="/products/uncaught-error">(Browser error test)</NuxtLink></li>
       </ul>
     </nav>
   </header>
