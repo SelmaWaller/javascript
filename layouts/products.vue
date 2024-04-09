@@ -1,32 +1,21 @@
 <script setup lang="ts">
-import {Menu} from '#components'
+
 </script>
 
 <template>
-  <div>
-    <header>
-      <nav>
-        <NuxtLink to="/">Home</NuxtLink>
-      </nav>
-    </header>
-  </div>
-  <div>
-    <footer>
-      <nav>
-        <ul>
-          <li>
-            <NuxtLink to="/">Home</NuxtLink>
-            <NuxtLink to="/about">About</NuxtLink>
-          </li>
-        </ul>
-      </nav>
-    </footer>
-  </div>
-  <div>
+  <header class="shadow-sm bg-white">
+    <nav class="container mx-auto p-4 flex justify-between">
+      <NuxtLink to="/" class="font-bold">Home</NuxtLink>
+        <button class="btn">Cart</button>
+    </nav>
+  </header>
+  <div class="container mx-auto p-4">
     <slot />
   </div>
 </template>
 
-<style scoped>
-
+<style scoped lang="scss">
+.router-link-exact-active {
+  color: #28487d;
+}
 </style>
